@@ -1,0 +1,116 @@
+.block{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: rgb(88, 88, 88);
+    margin: auto;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+main{
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+footer{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 0px;
+    border: 0px solid rgb(211, 211, 211);
+    background: WhiteSmoke;
+    line-height: 22px;
+}
+
+.left{
+    float: left;
+    padding-left: 25px;
+}
+  
+.right{
+    float: right;
+    padding-right: 25px;
+}
+
+.app-button{
+    height: 17px;
+    width: 17px;
+    padding-left: 10px;
+    padding-right: 25px;
+    
+}
+
+.search-bar{
+    display: block;
+    border: 1px solid rgb(231, 228, 228);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+    width: 575px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(56, 54, 54);
+}
+
+a{
+    display: inline-block;
+    padding: 10px 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.location{
+    display: block;
+    padding: 10px 15px;
+    justify-content: stretch;
+    border: 1px solid rgb(231, 228, 228);
+    padding-left: 30px;
+    font-size:15px; 
+}
+
+
+
+.submit{
+    margin-left: 6px;
+    font-size: 14px;
+    color: rgb(88, 88, 88);
+    padding: 10px 15px;
+    background-color: WhiteSmoke;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.divider {
+    text-align: center;
+}
+
+.sign-in{
+    background: rgb(72, 133, 237);
+    color: white;
+    border: 0px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 7px 15px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
